@@ -9,6 +9,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="style.css">
+    
 
     <title>Deputado Rnelson</title>
 </head>
@@ -41,7 +42,8 @@
         </div>
     </section>
 </main>
-  
+     
+    <script src="script.js"></script>
     <!-- iniciando o carrousel-->
 
     <div class="slider">
