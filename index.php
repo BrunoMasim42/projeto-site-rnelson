@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="_imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="_imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="_imagens/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
     <link rel="stylesheet" href="style.css">
     
@@ -46,60 +50,70 @@
     <script src="script.js"></script>
     <!-- iniciando o carrousel-->
 
-    <div class="slider">
+    <section class="grid-container">
 
-    <div class="slides">
-        <!-- radio butons-->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <!-- fim radio butons-->
+    <div class="gridcarousel-item">
 
-        <!-- Slide Imagens-->
-
-        <div class="slide first">
-            <img src="imagens/materias/01.jpg" alt="" id="">
-
-        </div>
-
-         <div class="slide">
-            <img src="imagens/materias/02.jpg" alt="" id="">
-
-        </div>
-
-         <div class="slide">
-            <img src="imagens/materias/03.jpg" alt="" id="">
-
-        </div>
-
-         <div class="slide">
-            <img src="imagens/materias/05.jpg" alt="" id="">
-
-        </div>
-
-       <!--  fim Slide Imagens-->
-
-        <!--  navigation button-->
-
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-         <!--  fim navigation button-->
-        </div>
-
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="">
+      <img src="imagens/materias/01.jpg" class="d-block w-100" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
     </div>
-
-       <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-       </div>
-
+    <div class="carousel-item">
+      <a href="">
+      <img src="imagens/materias/02.jpg" class="d-block w-100" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
     </div>
+    <div class="carousel-item">
+      <a href="">
+      <img src="imagens/materias/03.jpg" class="d-block w-100" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <a href="">
+      <img src="imagens/materias/05.jpg" class="d-block w-100" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+      
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div> 
+
+</section>
 
 
     
