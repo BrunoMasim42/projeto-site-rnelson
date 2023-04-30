@@ -23,7 +23,8 @@
     <div class="logo">
    <img src="imagens/logoAzul.png">
    </div>
-        <ul class="nav-menu">
+
+       <ul class="nav-menu">
             <li class="nav-item"><a href="home">Home</a></li>
             <li class="nav-item"><a href="compromisso">Compromisso</a></li>
             <li class="nav-item"><a href="projetos">Projetos</a></li>
@@ -38,16 +39,39 @@
     </nav>
 </header>
 
+<div class="icone">
+    <div class="face">
+            <a href="https://www.facebook.com/emilhomen.milhomen/" target="blank"><img src="imagens/icones/face.png" width="31px"></a>
+
+        </div>
+
+        <div class="insta">
+            <a href="https://www.instagram.com/evandro_milhomen/" target="blank"><img src="imagens/icones/insta.png" width="30px"></a>
+
+        </div>
+
+        <div class="whats">
+            <a href=""><img src="imagens/icones/whatssap2.png" width="30px"></a>
+
+        </div>
+
+        <div class="youtube">
+            <a href="" target="blank"><img src="imagens/icones/youtube.png" width="33px" height="30px"></a>
+
+        </div>
+    </div>
+
 <main>
     <section class="home">
         <div class="home-img">
             <img src="imagens/foto08.jpeg" alt="hamburguer">
 
-        </div>
+       
     </section>
 </main>
      
-    <script src="script.js"></script>
+   
+    
     <!-- iniciando o carrousel-->
 
     <section class="grid-container">
