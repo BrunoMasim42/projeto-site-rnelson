@@ -41,12 +41,12 @@
 
 <div class="icone">
     <div class="face">
-            <a href="https://www.facebook.com/emilhomen.milhomen/" target="blank"><img src="imagens/icones/face.png" width="31px"></a>
+            <a href="https://www.facebook.com/rnelsonpimentel" target="blank"><img src="imagens/icones/face.png" width="31px"></a>
 
         </div>
 
         <div class="insta">
-            <a href="https://www.instagram.com/evandro_milhomen/" target="blank"><img src="imagens/icones/insta.png" width="30px"></a>
+            <a href="https://www.instagram.com/dep.rnelsonvieira/" target="blank"><img src="imagens/icones/insta.png" width="30px"></a>
 
         </div>
 
@@ -73,8 +73,9 @@
    
     
     <!-- iniciando o carrousel-->
+    <section class="main-container">
 
-    <section class="grid-container">
+    <div class="grid-container">
 
     <div class="gridcarousel-item">
 
@@ -133,16 +134,41 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+  </div>
+    </div> 
 </div>
 
-</div> 
+<div class="anuncio">
+  <h2>Moções do Mês</h2>
+    <form action="">
+      <optgroup label="Indicações">
+        <option value="o" autofocus></option>
+        <option value="M" >primeiro dia</option>
+        <option value="N" >segundo dia</option>
+        <option value="o" >terceiro dia</option>
+        <option value="o" >quarto dia</option>
+        <option value="o" >quarto dia</option>
+        <option value="o" >quarto dia</option>
+        <option value="o" >quarto dia</option>
+        <option value="o" >quarto dia</option>
+      </optgroup>
+    </form>
+</div>
+
+<div class="foto-container">
+  <div class="imagem-container">
+        <img src="imagens/logo alap.jpeg" alt="">
+  </div>
+
+</div>
 
 </section>
 
 
     
-    
+    <h1>Últimas Publicações </h1>
     <section class="flex">
+      
         <div class="flex-img">
             <img src="imagens/materias/01.jpg" alt="hamburguer">
             <p>Accessibility
