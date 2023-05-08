@@ -25,17 +25,17 @@
    </div>
         <div class="nav-menu" >
        <ul>
-            <li class="nav-item"><a href="home">Home</a></li>
+            <li class="nav-item"><a href="home.php">Home</a></li>
             <li class="nav-item"><a href="compromisso.php">Compromisso</a></li>
-            <li class="nav-item"><a href="Mandato">Mandato</a>
+            <li class="nav-item"><a href="Mandato.php">Mandato</a>
                 <ul>
-                    <li><a href="" >Requerimentos</a></li>
-                    <li><a href="" >Moções</a></li>
-                    <li><a href="" >Projetos</a></li>
+                    <li><a href="requerimentos.php" >Requerimentos</a></li>
+                    <li><a href="mocoes.php" >Moções</a></li>
+                    <li><a href="projetos.php" >Projetos</a></li>
                 </ul>
             </li>
-            <li class="nav-item"><a href="fotos">Fotos</a></li>
-            <li class="nav-item"><a href="videos">Vídeos</a></li>
+            <li class="nav-item"><a href="fotos.php">Fotos</a></li>
+            <li class="nav-item"><a href="videos.php">Vídeos</a></li>
         </ul>
         </div>
         <div class="menu">
@@ -147,12 +147,15 @@
 
 <div class="anuncio">
   <h2>Moções e Requerimentos</h2><br>
-    <select>
-      <option value="01" >Requerimento n 0592/23AL</option>
-      <option value="" ></option>
-      <option value="" ></option>
-      <option value="" ></option>
-    </select>
+    <div class="opcao">
+        <p><a href="req01">requerimento n 0608/23-AL</a></p>
+        <p><a href="req01">requerimento n 0609/23-AL</a></p>
+        <p><a href="req01">requerimento n 0646/23-AL</a></p>
+        <p><a href="req01">requerimento n 0647/23-AL</a></p>
+        <p><a href="req01">requerimento n 0592/23-AL</a></p>
+        <p><a href="req01">requerimento n 0593/23-AL</a></p>
+      
+    </div>
 </div>
 
 <div class="foto-container">
