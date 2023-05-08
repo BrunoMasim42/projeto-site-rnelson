@@ -23,14 +23,21 @@
     <div class="logo">
    <img src="imagens/logoAzul.png">
    </div>
-
-       <ul class="nav-menu">
+        <div class="nav-menu" >
+       <ul>
             <li class="nav-item"><a href="home">Home</a></li>
-            <li class="nav-item"><a href="compromisso">Compromisso</a></li>
-            <li class="nav-item"><a href="projetos">Projetos</a></li>
+            <li class="nav-item"><a href="compromisso.php">Compromisso</a></li>
+            <li class="nav-item"><a href="Mandato">Mandato</a>
+                <ul>
+                    <li><a href="" >Requerimentos</a></li>
+                    <li><a href="" >Moções</a></li>
+                    <li><a href="" >Projetos</a></li>
+                </ul>
+            </li>
             <li class="nav-item"><a href="fotos">Fotos</a></li>
             <li class="nav-item"><a href="videos">Vídeos</a></li>
         </ul>
+        </div>
         <div class="menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -139,20 +146,13 @@
 </div>
 
 <div class="anuncio">
-  <h2>Moções do Mês</h2>
-    <form action="">
-      <optgroup label="Indicações">
-        <option value="o" autofocus></option>
-        <option value="M" >primeiro dia</option>
-        <option value="N" >segundo dia</option>
-        <option value="o" >terceiro dia</option>
-        <option value="o" >quarto dia</option>
-        <option value="o" >quarto dia</option>
-        <option value="o" >quarto dia</option>
-        <option value="o" >quarto dia</option>
-        <option value="o" >quarto dia</option>
-      </optgroup>
-    </form>
+  <h2>Moções e Requerimentos</h2><br>
+    <select>
+      <option value="01" >Requerimento n 0592/23AL</option>
+      <option value="" ></option>
+      <option value="" ></option>
+      <option value="" ></option>
+    </select>
 </div>
 
 <div class="foto-container">

@@ -64,13 +64,40 @@ body{
     padding-top: 5px;
 }
 
+.nav-menu ul li{
+    display: inline;
+    position: relative;
+}
+
 .nav-menu ul li a{
     padding-top: 5px;
+    display: inline-block;
 }
 
 .navigation ul li a:hover{
     color: var(--red);
 }
+
+.nav-menu ul ul{
+    display: none;
+    position: absolute;
+}
+
+.nav-menu ul li:hover ul{
+    display: block;
+  
+}
+
+.nav-menu ul ul{
+    width: 120px;
+    padding: 2px 2px;
+    
+}
+
+.nav-menu ul ul li a{
+    display: block;
+}
+
 .menu{
     cursor: pointer;
     display: none;
@@ -133,7 +160,7 @@ body{
   .main-container{
     width: 1215px;
     height: 350px;
-    background-color: #779fe9;
+    background-color: #faefde;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +171,7 @@ body{
     flex-wrap: wrap;
     padding: 5px;
     margin-left: 67px;
-    margin-top: 130px;
+    margin-top: 190px;
    
 
     
@@ -186,6 +213,11 @@ h1{
     margin-left: 80px;
     color: #073677;
 }
+
+h2{
+    font-size: 14pt;
+}
+
 
 p{
     width: 250px;
