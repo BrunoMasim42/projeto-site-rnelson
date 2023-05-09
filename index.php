@@ -200,10 +200,23 @@ Terminal command failure audio cue
 When a command exits with a non-zero code in a terminal with shell integration, sighted users can glance at the command decoration to quickly understand that there was a failure. 
 </p>
         </div>
-        
-        
+</section>
 
-    </section>
+<section class="content">
+    <div class="contato">
+        <h3>Formulário de contato</h3>
+        <form class="form" action="email.php" method="post">
+          <label for="">Seu Nome</label> 
+          <input type="text" name="nome" class="field" placeholder="nome"> 
+          <label for="">Seu E-mail</label> 
+          <input type="password"  name="email" class="field" placeholder="E-mail">
+          <label for="">Escreva sua mensagem</label> 
+          <textarea   name="mesage" class="field" id="" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea> 
+          <input type="submit" class="field" value="Enviar">
+
+        </form>
+    </div>
+</section>
     
 </body>
 </html>

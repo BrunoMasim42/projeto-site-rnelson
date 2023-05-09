@@ -79,26 +79,26 @@ body{
 }
 
 .nav-menu ul ul{
+    width: 160px;
+    padding: 2px 2px;
     display: none;
     position: absolute;
     margin-top: 2px;
+    line-height: 15px;
+    
 }
 
 .nav-menu ul li:hover ul{
     display: block;
+   
   
 }
 
-.nav-menu ul ul{
-    width: 120px;
-    padding: 2px 2px;
-    
-    
-}
+
 
 .nav-menu ul ul li a{
     display: block;
-    
+    background-color: antiquewhite;
 }
 
 .menu{
@@ -265,11 +265,38 @@ p{
     flex-wrap: wrap;
     margin-left: 65px;
     margin-bottom: 50px;
-  
- 
-    
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.contato{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+
+}
+
+textarea{
+    height: 150px;
+}
 
 
 
