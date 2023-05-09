@@ -217,6 +217,11 @@ When a command exits with a non-zero code in a terminal with shell integration, 
         </form>
     </div>
 </section>
-    
+
+  <div class="final" >  
+ <h5>Todos os direitos reservados ao Mandato Dep. Rnelson</h5>
+ <h5>Desenvolvido por Bruno Masim/APTrechos Comunicação<h5>
+
+ </div>
 </body>
 </html>

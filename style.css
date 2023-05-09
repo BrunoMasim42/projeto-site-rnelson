@@ -12,7 +12,12 @@
     --red:#d63a25;
     --white:#fff;
     --dark:#1e1c2a;
-    --blue:#0047AB;
+
+    --blue-50:#5496f3;
+    --blue-100: #2373e2;
+    --blue-900: #053983;
+
+    --color-gradient: linear-gradient(90deg, var(--blue-50), var(--blue-100));
 }
 body{
     margin: 0;
@@ -272,11 +277,15 @@ p{
     justify-content: center;
     margin-bottom: 50px;
     margin-top: 150px;
+    box-shadow: #1e1c2a;
+    background-color: #5d93f8;
+    
 }
 
 .contato{
     width: 100%;
     max-width: 500px;
+    
 }
 
 .form{
@@ -290,13 +299,33 @@ p{
     border: 1px solid #000;
     border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 15pt;
+    font-size: 12pt;
 
 }
 
 textarea{
     height: 150px;
 }
+
+h3{
+    color: #fff;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    
+}
+
+h5{
+    font-size: 8pt;
+    margin-left: 100px;
+}
+
+
 
 
 
