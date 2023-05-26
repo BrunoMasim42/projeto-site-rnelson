@@ -202,10 +202,12 @@ When a command exits with a non-zero code in a terminal with shell integration, 
         </div>
 </section>
 
-<section class="content">
-    <div class="contato">
-        <h3>Formulário de contato</h3>
-        <form class="form" action="email.php" method="post">
+<section id="content" onmousemove="azulclaro()" onmousemove="azulescuro()">
+
+    <div id="contato"  >
+
+        <h3>Fale com a gente</h3>
+        <form id="form" action="email.php" method="post">
           <label for="">Seu Nome</label> 
           <input type="text" name="nome" class="field" placeholder="nome"> 
           <label for="">Seu E-mail</label> 
@@ -221,7 +223,8 @@ When a command exits with a non-zero code in a terminal with shell integration, 
   <div class="final" >  
  <h5>Todos os direitos reservados ao Mandato Dep. Rnelson</h5>
  <h5>Desenvolvido por Bruno Masim/APTrechos Comunicação<h5>
-
  </div>
+
+ <script src="js/script.js"></script>
 </body>
 </html>

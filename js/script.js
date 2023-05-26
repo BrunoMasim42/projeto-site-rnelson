@@ -15,3 +15,13 @@ function nextImage(){
 
    document.getElementById("radio"+count) .checked = true;
 }
+
+function azulclaro(){
+    let div = document.getElementById("content");
+    div.style.backgroundcolor = "darkcyan";
+}
+
+function azulescuro(){
+    let div = document.getElementById("content");
+    div.style.backgroundcolor = "lightslategray";
+}

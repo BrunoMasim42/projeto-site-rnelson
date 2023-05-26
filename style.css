@@ -272,7 +272,7 @@ p{
     margin-bottom: 50px;
 }
 
-.content{
+#content{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -282,13 +282,13 @@ p{
     
 }
 
-.contato{
+#contato{
     width: 100%;
     max-width: 500px;
     
 }
 
-.form{
+#form{
     display: flex;
     flex-direction: column;
 }
@@ -308,7 +308,7 @@ textarea{
 }
 
 h3{
-    color: #fff;
+    color: #fff ;
 }
 
 .final{
@@ -323,7 +323,9 @@ h3{
 h5{
     font-size: 8pt;
     margin-left: 100px;
+    
 }
+
 
 
 
